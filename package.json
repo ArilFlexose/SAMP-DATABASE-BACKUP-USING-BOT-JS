@@ -1,0 +1,24 @@
+{
+    "name": "vexcity",
+    "version": "1.1.3",
+    "description": "",
+    "main": "backupdatabase.js",
+    "scripts": {
+        "start": "nodemon backupdatabase.js",
+        "test": "nodemon backupdatabase.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "discord-html-transcripts": "^2.5.8",
+        "discord-modals": "^1.3.7",
+        "discord.js": "^13.2.0",
+        "dotenv": "^16.0.1",
+        "glob": "^7.1.7",
+        "mongoose": "^6.4.4",
+        "ms": "^2.1.3",
+        "mysql": "^2.18.1",
+        "samp-query": "^0.1.5"
+    }
+}
